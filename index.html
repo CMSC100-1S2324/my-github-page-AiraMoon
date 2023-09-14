@@ -2,33 +2,13 @@
 
 <html>
     <head>
+
         <title> Me, Myself and I</title>
-        <nav>
-            <a href="#">HTML</a> |
-            <a href="#">CSS</a> |
-            <a href="#">JavaScript</a> |
-            <a href="#">Python</a>
-        </nav>
+        
 
         <style>
-            /* h1 {
-  
-            font-size: 100px;
-            } */
 
             .featuredPhotoContainer {
-            /* background-image: url(./img/img_feature.jpg);
-            background-size: 100% 100%; */
-            /* text-align: center; */
-            /* text-emphasis: none; */
-            /* background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover; */
-            /* height: 10;
-            width: 10; */
-            /* background-color: powderblue; */
-            /* display: flex; */
-
             position: relative;
             text-align: center;
             color: black;
@@ -49,6 +29,43 @@
             transform: translate(-50%, -50%);
             }
 
+            .img_avatar {
+                
+            border-radius: 50%;
+            width:75px;
+            height:75px;
+            /* margin-left: auto;
+            margin-right: auto; */
+
+            }
+
+            .navbar {
+            background-color: #333;
+            overflow: hidden;
+            }
+
+            /* Style the links inside the navigation bar */
+            .navbar a {
+            float: center;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            }
+
+
+
+            /* .navbar {
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            } */
+
+
+
             /* .previousProject {
             border: 5px outset blue;
             background-color: lightblue;
@@ -64,6 +81,17 @@
     </head>
 
     <body>
+
+        <div class="navbar">
+            <img src="./img/img_avatar.png" alt="Avatar" class="img_avatar">
+            <a href="#"><i class="fw"></i>Contact</a> 
+            <a href="#"><i></i>Facebook</a> 
+            <a href="#"><i></i>LinkedIn</a> 
+            <a href="#"><i></i>Github</a> 
+
+        </div>
+        
+
         <div class="featuredPhotoContainer" >
            <img src="./img/img_feature.png" alt="featuredPhoto" class="featuredPhotoImg">
            <div class="featuredPhotoText">Ma. Aira Gezelyn H. Moon</div>
